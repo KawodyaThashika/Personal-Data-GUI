@@ -1,0 +1,8 @@
+Delete class:
+del *.class
+
+compile:
+javac -encoding UTF-8 -cp mysql-connector-j-9.7.0.jar *.java
+
+run:
+java -cp ".;mysql-connector-j-9.7.0.jar" PersonalDataGUI
